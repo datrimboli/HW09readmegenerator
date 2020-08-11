@@ -6,11 +6,11 @@ const fs = require('fs')
 const question = () => {
   inquirer
     .prompt([
-      {
-        type: 'input',
-        name: 'name',
-        message: 'What is your name?'
-      },
+      // {
+      //   type: 'input',
+      //   name: 'name',
+      //   message: 'What is your name?'
+      // },
       {
         type: 'input',
         name: 'title',
@@ -24,15 +24,36 @@ const question = () => {
       }
     ])
     .then(res => {
-      console.log(res.name, res.title, res.choice)
+      console.log(res.title, res.choice)
 
       var output = `
-
-
-#Name: ${res.name}
-
 #Title: ${res.title}
 
+Description:
+
+
+Table of Contents:
+
+
+Installation:
+
+Usage:
+
+
+License:
+
+
+Contributing:
+
+
+Tests:
+
+
+Questions:
+
+
+
+#Choice: ${res.choice}
           
           `
       fs.writeFile('newreadme.md', output, (err) => {
