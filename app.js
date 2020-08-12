@@ -42,10 +42,20 @@ const question = () => {
         message: 'What are the test instructions of your project?'
       },
       {
+        type: 'input',
+        name: 'github',
+        message: 'What is your Github username?'
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
+      },
+      {
         type: 'list',
         name: 'choice',
         message: 'Which type of license does your application use?',
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
+        choices: ['MIT', 'APACHE2.0', 'GPL3.0', 'BSD3', 'None']
       }
     ])
     .then(res => {
@@ -55,46 +65,68 @@ const question = () => {
       console.log(res.usage)
       console.log(res.contribution)
       console.log(res.choice)
-      console.log(res.title)
-      console.log(res.title)
+      console.log(res.github)
+      console.log(res.email)
 
 
       var output = `
-#Title: ${res.title}                                   https://img.shields.io/badge/license-${res.choice}-blue.svg
+# Title: ${res.title}                                   ![badge](https://img.shields.io/badge/license-${res.choice}-blue.svg)
 -------
-
-Description: 
-------------
-${res.description}
-
-Installation: 
--------------
-${res.installation}
-
-Usage:
-------
-${res.usage}
-
-Contributing:
--------------
-${res.contribution}
-
-Tests:
-------
-${res.test}
-
-License:
---------
-${res.choice}
 
 Table of Contents:
 ------------------
+## Table of Contents 
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-Questions:
-----------
+## Description: ${res.description}
+------------
 
 
-#Choice: ${res.choice}
+
+## Installation: ${res.installation}
+-------------
+
+
+
+## Usage:${res.usage}
+------
+
+
+
+## Contributing:${res.contribution}
+-------------
+
+
+
+## Tests:${res.test}
+------
+
+
+
+## License:${res.choice}
+--------
+
+
+
+## Questions:
+
+Github Username: [${res.github}](https://github.com/${res.github}) 
+
+Contact me via email at: ${res.email}
+ 
+
+
+
+
+
+
+
           
           `
       fs.writeFile('newreadme.md', output, (err) => {
