@@ -34,7 +34,12 @@ const question = () => {
       {
         type: 'input',
         name: 'contribution',
-        message: 'What are the contribution guidelines to you project?'
+        message: 'What are the contribution guidelines to your project?'
+      },
+      {
+        type: 'input',
+        name: 'test',
+        message: 'What are the test instructions of your project?'
       },
       {
         type: 'list',
@@ -49,7 +54,7 @@ const question = () => {
       console.log(res.installation)
       console.log(res.usage)
       console.log(res.contribution)
-      console.log(res.title)
+      console.log(res.test)
       console.log(res.title)
       console.log(res.title)
 
@@ -74,11 +79,12 @@ Contributing:
 ${res.contribution}
 -------------
 
-License:
---------
-
 Tests:
 ------
+${res.test}
+
+License:
+--------
 
 Table of Contents:
 ------------------
