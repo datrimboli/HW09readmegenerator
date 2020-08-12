@@ -1,6 +1,6 @@
 
-# Title: dsfdfs     
- ![badge](https://img.shields.io/badge/license-APACHE2.0-blue.svg)                             
+# Title: ert     
+ ![badge](https://img.shields.io/badge/license-MIT-blue.svg)                             
 -------
 
 ## Table of Contents 
@@ -16,37 +16,37 @@
 
 
 ## Description: 
-sdfsf
+wert
 
 
 
 
 ## Installation: 
-sadfasdf
+ert
 
 
 
 
 ## Usage:
- sdfsadf
+ ert
 
 
 
 
 ## Contributing: 
-sdfasd
+dgfh
 
 
 
 
 ## Tests: 
-sdfdsa
+gdfs
 
 
 
 
 ## License: 
-APACHE2.0
+MIT
 
 
 
@@ -55,14 +55,4 @@ APACHE2.0
 
 Github Username: [datrimboli](https://github.com/datrimboli) 
 
-Contact me via email at: datrimboli@gmail.com
- 
-
-
-
-
-
-
-
-          
-          
+Contact me via email at: datrimboli@gmail.com 

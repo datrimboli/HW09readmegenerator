@@ -64,9 +64,10 @@ const question = () => {
       console.log(res.installation)
       console.log(res.usage)
       console.log(res.contribution)
-      console.log(res.choice)
+      console.log(res.test)
       console.log(res.github)
       console.log(res.email)
+      console.log(res.choice)
 
 
       var output = `
@@ -126,17 +127,7 @@ ${res.choice}
 
 Github Username: [${res.github}](https://github.com/${res.github}) 
 
-Contact me via email at: ${res.email}
- 
-
-
-
-
-
-
-
-          
-          `
+Contact me via email at: ${res.email} `
       fs.writeFile('newreadme.md', output, (err) => {
         if (err) { console.log(err) }
         console.log('File Created!')
