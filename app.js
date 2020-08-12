@@ -70,11 +70,12 @@ const question = () => {
 
 
       var output = `
-# Title: ${res.title}                                   ![badge](https://img.shields.io/badge/license-${res.choice}-blue.svg)
+# Title: ${res.title}     
+ ![badge](https://img.shields.io/badge/license-${res.choice}-blue.svg)                             
 -------
 
 ## Table of Contents 
-------------------
+
 
 - [Description](#description)
 - [Installation](#installation)
@@ -84,39 +85,40 @@ const question = () => {
 - [Tests](#tests)
 - [Questions](#questions)
 
+
 ## Description: 
 ${res.description}
-------------
+
 
 
 
 ## Installation: 
 ${res.installation}
--------------
+
 
 
 
 ## Usage:
-${res.usage}
-------
+ ${res.usage}
 
 
 
-## Contributing:
+
+## Contributing: 
 ${res.contribution}
--------------
 
 
 
-## Tests:
+
+## Tests: 
 ${res.test}
-------
 
 
 
-## License:
+
+## License: 
 ${res.choice}
---------
+
 
 
 
