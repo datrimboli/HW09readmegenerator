@@ -1,10 +1,10 @@
 
-#Title: f
+#Title: f                                   https://img.shields.io/badge/license-MIT-blue.svg
 -------
 
 Description: 
 ------------
-f
+g
 
 Installation: 
 -------------
@@ -12,15 +12,19 @@ f
 
 Usage:
 ------
-f
-License:
---------
+g
 
 Contributing:
 -------------
+f
 
 Tests:
 ------
+g
+
+License:
+--------
+MIT
 
 Table of Contents:
 ------------------
@@ -29,6 +33,6 @@ Questions:
 ----------
 
 
-#Choice: one
+#Choice: MIT
           
           

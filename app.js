@@ -44,8 +44,8 @@ const question = () => {
       {
         type: 'list',
         name: 'choice',
-        message: 'Pick a number',
-        choices: ['one', 'two', 'three', 'four']
+        message: 'Which type of license does your application use?',
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
       }
     ])
     .then(res => {
@@ -54,13 +54,13 @@ const question = () => {
       console.log(res.installation)
       console.log(res.usage)
       console.log(res.contribution)
-      console.log(res.test)
+      console.log(res.choice)
       console.log(res.title)
       console.log(res.title)
 
 
       var output = `
-#Title: ${res.title}
+#Title: ${res.title}                                   https://img.shields.io/badge/license-${res.choice}-blue.svg
 -------
 
 Description: 
@@ -76,8 +76,8 @@ Usage:
 ${res.usage}
 
 Contributing:
-${res.contribution}
 -------------
+${res.contribution}
 
 Tests:
 ------
@@ -85,6 +85,7 @@ ${res.test}
 
 License:
 --------
+${res.choice}
 
 Table of Contents:
 ------------------
