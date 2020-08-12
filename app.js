@@ -73,9 +73,9 @@ const question = () => {
 # Title: ${res.title}                                   ![badge](https://img.shields.io/badge/license-${res.choice}-blue.svg)
 -------
 
-Table of Contents:
-------------------
 ## Table of Contents 
+------------------
+
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -84,32 +84,38 @@ Table of Contents:
 - [Tests](#tests)
 - [Questions](#questions)
 
-## Description: ${res.description}
+## Description: 
+${res.description}
 ------------
 
 
 
-## Installation: ${res.installation}
+## Installation: 
+${res.installation}
 -------------
 
 
 
-## Usage:${res.usage}
+## Usage:
+${res.usage}
 ------
 
 
 
-## Contributing:${res.contribution}
+## Contributing:
+${res.contribution}
 -------------
 
 
 
-## Tests:${res.test}
+## Tests:
+${res.test}
 ------
 
 
 
-## License:${res.choice}
+## License:
+${res.choice}
 --------
 
 
