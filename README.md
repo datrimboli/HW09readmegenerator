@@ -19,3 +19,5 @@ Once the user has answered the questions and prompts, there will be a newreadme.
 This provides an easy way to construct a concise & aesthetically pleasing README; an essential part to any project. 
 
 Link to walkthrough demo video: https://drive.google.com/file/d/1P1uUcJ9uZ31yL2b0cFplT7iPyxDGwPAn/view
+
+Screenshots in Screenshot Folder 
