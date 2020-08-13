@@ -16,5 +16,6 @@ Upon running the app, the user will be presented with a series of questions and 
 
 Once the user has answered the questions and prompts, there will be a newreadme.md file created describing the project complete with a badge icon, a table of elements that allows easy navigation to the different sections of the read me (via click), sectioned answers, and project contact information. 
 
-This provides an easy way to construct a concise, aesthetically pleasing README, an essential part to any project. 
+This provides an easy way to construct a concise & aesthetically pleasing README; an essential part to any project. 
 
+Link to walkthrough demo video: https://drive.google.com/file/d/1P1uUcJ9uZ31yL2b0cFplT7iPyxDGwPAn/view
